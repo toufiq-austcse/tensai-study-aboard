@@ -28,7 +28,7 @@ const Hero = () => {
                         <div className="relative">
                             <div className="bg-white p-6 rounded-2xl shadow-xl">
                                 <Image
-                                    src="/hero.jpg"
+                                    src="./hero.jpg"
                                     alt="Students studying abroad"
                                     width={800}
                                     height={600}
