@@ -1,26 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: Inter, system-ui, -apple-system, sans-serif;
+  --font-display: Montserrat, system-ui, -apple-system, sans-serif;
+
+  --color-background: hsl(210 50% 98%);
+  --color-foreground: hsl(222.2 84% 4.9%);
+
+  --color-primary: hsl(217 100% 34%);
+  --color-primary-foreground: hsl(210 40% 98%);
+
+  --color-secondary: hsl(210 40% 96.1%);
+  --color-secondary-foreground: hsl(222.2 47.4% 11.2%);
+
+  --color-muted: hsl(210 40% 96.1%);
+  --color-muted-foreground: hsl(215.4 16.3% 46.9%);
+
+  --color-accent: hsl(210 40% 96.1%);
+  --color-accent-foreground: hsl(222.2 47.4% 11.2%);
+
+  --color-destructive: hsl(0 84.2% 60.2%);
+  --color-destructive-foreground: hsl(210 40% 98%);
+
+  --color-border: hsl(214.3 31.8% 91.4%);
+  --color-input: hsl(214.3 31.8% 91.4%);
+  --color-ring: hsl(222.2 84% 4.9%);
+
+  --radius: 0.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--color-border);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
 }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.btn-primary {
+  background-color: #004aad;
+  color: white;
+  font-weight: 500;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  background-color: #00398e;
+}
+
+.btn-outline {
+  border: 1px solid #004aad;
+  color: #004aad;
+  font-weight: 500;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline:hover {
+  background-color: #f0f7fe;
+}
+
+.section-heading {
+  font-size: 1.875rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 2.25rem;
+  }
+}
+
+.section-subheading {
+  font-size: 1.125rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.card-hover {
+  transition: all 0.2s;
+}
+
+.card-hover:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  transform: translateY(-0.25rem);
+}
+
+.animate-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.3s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.5s;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.7s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+.animate-fade-in-right {
+  animation: fade-in-right 0.6s ease-out forwards;
+}
+
