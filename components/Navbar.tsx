@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className="flex items-center">
                     <a href="#" className="flex items-center">
                         <Image
-                            src="/lovable-uploads/cd5a57fa-7ab9-4755-8744-d9764abded44.png"
+                            src="./lovable-uploads/cd5a57fa-7ab9-4755-8744-d9764abded44.png"
                             alt="Tensai Logo"
                             width={200}
                             height={64}
