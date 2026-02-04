@@ -1,5 +1,6 @@
 import React from 'react';
 import {GraduationCap, Globe} from 'lucide-react';
+import Image from "next/image";
 
 const Hero = () => {
     return (
@@ -26,9 +27,11 @@ const Hero = () => {
                     <div className="md:col-span-5 animate-fade-in animate-delay-2">
                         <div className="relative">
                             <div className="bg-white p-6 rounded-2xl shadow-xl">
-                                <img
+                                <Image
                                     src="/hero.jpg"
                                     alt="Students studying abroad"
+                                    width={800}
+                                    height={600}
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
