@@ -5,6 +5,7 @@ import Process from "@/components/Process";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Contact from "@/components/Contact";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
     return (
@@ -14,7 +15,7 @@ export default function Home() {
                 <Hero />
                 <Features />
                 <Process />
-                {/* <Testimonials /> */}
+                 <Testimonials />
                 <Contact />
             </main>
             <Footer />

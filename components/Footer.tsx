@@ -39,10 +39,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-white transition-colors">United States</a></li>
               <li><a href="#" className="hover:text-white transition-colors">United Kingdom</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Canada</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Australia</a></li>
               <li><a href="#" className="hover:text-white transition-colors">New Zealand</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Japan</a></li>
             </ul>
           </div>
 

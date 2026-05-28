@@ -52,11 +52,9 @@ const Navbar = () => {
                     <a href="#process" className="text-gray-700 hover:text-[#004aad] font-medium">
                         Process
                     </a>
-                    {/* Testimonials section hidden
-          <a href="#testimonials" className="text-gray-700 hover:text-[#004aad] font-medium">
-            Testimonials
-          </a>
-          */}
+                    <a href="#testimonials" className="text-gray-700 hover:text-[#004aad] font-medium">
+                        Success Stories
+                    </a>
                     <a href="#contact" className="btn-primary">
                         Contact Us
                     </a>
@@ -96,15 +94,13 @@ const Navbar = () => {
                         >
                             Process
                         </a>
-                        {/* Testimonials section hidden
-            <a 
-              href="#testimonials" 
-              className="text-gray-700 hover:text-[#004aad] font-medium py-2"
-              onClick={() => setIsOpen(false)}
-            >
-              Testimonials
-            </a>
-            */}
+                        <a
+                            href="#testimonials"
+                            className="text-gray-700 hover:text-[#004aad] font-medium py-2"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Success Stories
+                        </a>
                         <a
                             href="#contact"
                             className="btn-primary w-full text-center"
