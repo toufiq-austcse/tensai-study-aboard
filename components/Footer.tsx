@@ -79,9 +79,9 @@ const Footer = () => {
                                        className="hover:text-white transition-colors">
                                         <span>+8801896 088 956 (Call/WhatsApp)</span>
                                     </a><br/>
-                                    <a href="https://wa.me/8801896088956" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://wa.me/8801896088955" target="_blank" rel="noopener noreferrer"
                                        className="hover:text-white transition-colors">
-                                        <span>+8801896 088 955 (Call)</span>
+                                        <span>+8801896 088 955 (Call/WhatsApp)</span>
                                     </a>
 
                                 </div>

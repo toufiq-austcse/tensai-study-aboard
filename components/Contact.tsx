@@ -66,17 +66,6 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white p-6 rounded-xl shadow-sm">
-                            <div className="flex items-start gap-4">
-                                <div className="bg-[#f0f7fe] p-2 rounded-full">
-                                    <MapPin className="text-[#004aad] w-5 h-5"/>
-                                </div>
-                                <div>
-                                    <h3 className="text-lg font-semibold text-[#004aad] mb-1">UK OFFICE</h3>
-                                    <p className="text-gray-600">300 Barking Road, E13 8HL, London</p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="bg-white p-6 rounded-xl shadow-sm">
                             <div className="flex items-start gap-4">
@@ -97,9 +86,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold text-[#004aad] mb-1">Call Us</h3>
-                                    <p className="text-gray-600">+8801731 640 666 (Call/WhatsApp)</p>
                                     <p className="text-gray-600">+8801896 088 956 (Call/WhatsApp)</p>
-                                    <p className="text-gray-600">+44 7482 443968 (UK)</p>
+                                    <p className="text-gray-600">+8801896 088 955 (Call/WhatsApp)</p>
                                 </div>
                             </div>
                         </div>

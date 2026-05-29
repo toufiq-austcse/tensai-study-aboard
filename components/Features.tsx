@@ -38,14 +38,14 @@ const Features = () => {
       facts: 'World-class education with rich cultural heritage',
     },
     {
-      country: 'Canada',
-      image: 'https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-      facts: 'Excellent quality of life and post-study work opportunities',
-    },
-    {
       country: 'Australia',
       image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       facts: 'Innovation-focused education and vibrant student communities',
+    },
+    {
+      country: 'New Zealand',
+      image: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      facts: 'Safe, welcoming environment with globally recognized degrees',
     },
   ];
 
